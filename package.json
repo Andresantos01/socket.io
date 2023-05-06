@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "client": "nodemon node ./client/player.js",
+    "server": "nodemon node ./src/app.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
